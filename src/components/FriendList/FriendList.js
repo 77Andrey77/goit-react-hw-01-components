@@ -18,7 +18,7 @@ const FriendList = ({ friends }) => {
     );
 };
 FileList.propTypes = {
-    friends: PropTypes.arrayOf(PropTypes.object.isRequired),
+    friends: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
 };
 
 export default FriendList;
